@@ -1,0 +1,306 @@
+{
+  "chips": [
+    {
+      "text": "All",
+      "isActive": true
+    },
+    {
+      "text": "Music",
+      "isActive": false
+    },
+    {
+      "text": "Lo-Fi",
+      "isActive": false
+    },
+    {
+      "text": "Gaming",
+      "isActive": false
+    },
+    {
+      "text": "Live",
+      "isActive": false
+    },
+    {
+      "text": "Coding",
+      "isActive": false
+    },
+    {
+      "text": "Podcasts",
+      "isActive": false
+    },
+    {
+      "text": "Mixes",
+      "isActive": false
+    },
+    {
+      "text": "Gadgets",
+      "isActive": false
+    },
+    {
+      "text": "Comedy",
+      "isActive": false
+    },
+    {
+      "text": "Cooking",
+      "isActive": false
+    },
+    {
+      "text": "Animation",
+      "isActive": false
+    },
+    {
+      "text": "Recently uploaded",
+      "isActive": false
+    },
+    {
+      "text": "Watched",
+      "isActive": false
+    },
+    {
+      "text": "New to you",
+      "isActive": false
+    }
+  ],
+  "videos": [
+    {
+      "id": "vid_0",
+      "title": "Best of lofi hip hop 2021 ✨ [beats to relax/study to]",
+      "channelName": "Lofi Girl",
+      "views": "55M views",
+      "time": "4 years ago",
+      "duration": "6:10:58",
+      "thumbnail": "/images/youtube/thumb_0.webp",
+      "avatar": "/images/youtube/avatar_0.jpg"
+    },
+    {
+      "id": "vid_1",
+      "title": "lofi hip hop radio 📚 beats to relax/study to",
+      "channelName": "Lofi Girl",
+      "views": "13K watching",
+      "time": "",
+      "duration": "10:00",
+      "thumbnail": "/images/youtube/thumb_1.webp",
+      "avatar": "/images/youtube/avatar_1.jpg"
+    },
+    {
+      "id": "vid_2",
+      "title": "asian lofi radio ⛩️ beats to relax/study to",
+      "channelName": "Lofi Girl",
+      "views": "973 watching",
+      "time": "",
+      "duration": "10:00",
+      "thumbnail": "/images/placeholder-thumbnail.webp",
+      "avatar": "/images/youtube/avatar_2.jpg"
+    },
+    {
+      "id": "vid_3",
+      "title": "Seaside Coffee 🍵 Feel your peace & Relax 🌱 Coffee Morning | Lofi Hip Hop - Chill to work, relax",
+      "channelName": "Healing Me",
+      "views": "3M views",
+      "time": "Streamed 1 year ago",
+      "duration": "11:44:45",
+      "thumbnail": "/images/placeholder-thumbnail.webp",
+      "avatar": "/images/placeholder-avatar.jpg"
+    },
+    {
+      "id": "vid_4",
+      "title": "lofi hip hop mix 📚 beats to relax/study to (Part 1)",
+      "channelName": "Lofi Girl",
+      "views": "7.6M views",
+      "time": "1 year ago",
+      "duration": "2:50:41",
+      "thumbnail": "/images/placeholder-thumbnail.webp",
+      "avatar": "/images/placeholder-avatar.jpg"
+    },
+    {
+      "id": "vid_5",
+      "title": "Chill Lofi Mix [chill lo-fi hip hop beats]",
+      "channelName": "Settle",
+      "views": "33M views",
+      "time": "3 years ago",
+      "duration": "1:44:52",
+      "thumbnail": "/images/placeholder-thumbnail.webp",
+      "avatar": "/images/placeholder-avatar.jpg"
+    },
+    {
+      "id": "vid_6",
+      "title": "Chillhop Drive 90's - Lofi hip hop ~ Deep Focus, Relaxing Music | Chill Music",
+      "channelName": "chilli music",
+      "views": "2.5M views",
+      "time": "2 years ago",
+      "duration": "24:04:20",
+      "thumbnail": "/images/placeholder-thumbnail.webp",
+      "avatar": "/images/placeholder-avatar.jpg"
+    },
+    {
+      "id": "vid_7",
+      "title": "1980's Lofi rain in Tokyo playlist  •  Samurai Champloo x Cowboy Bebop [lofi mix for enjoy/unwind]",
+      "channelName": "Cowboy Bebop",
+      "views": "59K views",
+      "time": "4 weeks ago",
+      "duration": "3:01:22",
+      "thumbnail": "/images/placeholder-thumbnail.webp",
+      "avatar": "/images/placeholder-avatar.jpg"
+    },
+    {
+      "id": "vid_8",
+      "title": "Every programming tutorial",
+      "channelName": "Jombo",
+      "views": "16M views",
+      "time": "6 years ago",
+      "duration": "0:29",
+      "thumbnail": "/images/youtube/thumb_8.webp",
+      "avatar": "/images/youtube/avatar_8.jpg"
+    },
+    {
+      "id": "vid_9",
+      "title": "Learn To Code Like a GENIUS and Not Waste Time",
+      "channelName": "The Coding Sloth",
+      "views": "3.1M views",
+      "time": "2 years ago",
+      "duration": "9:41",
+      "thumbnail": "/images/youtube/thumb_9.webp",
+      "avatar": "/images/youtube/avatar_9.jpg"
+    },
+    {
+      "id": "vid_10",
+      "title": "Introduction to Programming and Computer Science - Full Course",
+      "channelName": "freeCodeCamp.org",
+      "views": "11M views",
+      "time": "6 years ago",
+      "duration": "1:59:09",
+      "thumbnail": "/images/youtube/thumb_10.webp",
+      "avatar": "/images/youtube/avatar_10.jpg"
+    },
+    {
+      "id": "vid_11",
+      "title": "C++ Tutorial for Beginners - Learn C++ in 1 Hour",
+      "channelName": "Programming with Mosh",
+      "views": "6.6M views",
+      "time": "3 years ago",
+      "duration": "1:22:56",
+      "thumbnail": "/images/placeholder-thumbnail.webp",
+      "avatar": "/images/youtube/avatar_11.jpg"
+    },
+    {
+      "id": "vid_12",
+      "title": "Impress your crush using Python Code ❤️",
+      "channelName": "AI Toolz",
+      "views": "2.7M views",
+      "time": "4 years ago",
+      "duration": "SHORTS",
+      "thumbnail": "/images/placeholder-thumbnail.webp",
+      "avatar": "/images/placeholder-avatar.jpg"
+    },
+    {
+      "id": "vid_13",
+      "title": "C Programming Tutorial for Beginners",
+      "channelName": "freeCodeCamp.org",
+      "views": "18M views",
+      "time": "7 years ago",
+      "duration": "3:46:13",
+      "thumbnail": "/images/placeholder-thumbnail.webp",
+      "avatar": "/images/placeholder-avatar.jpg"
+    },
+    {
+      "id": "vid_14",
+      "title": "the FUN way to learn programming",
+      "channelName": "crin",
+      "views": "952K views",
+      "time": "10 months ago",
+      "duration": "12:07",
+      "thumbnail": "/images/placeholder-thumbnail.webp",
+      "avatar": "/images/placeholder-avatar.jpg"
+    },
+    {
+      "id": "vid_15",
+      "title": "Java Full Course for Beginners",
+      "channelName": "Programming with Mosh",
+      "views": "14M views",
+      "time": "6 years ago",
+      "duration": "2:30:48",
+      "thumbnail": "/images/placeholder-thumbnail.webp",
+      "avatar": "/images/placeholder-avatar.jpg"
+    },
+    {
+      "id": "vid_16",
+      "title": "Top Hits 2026 ~ Trending Songs 2026 ~ Top Songs 2026 Top Music 🎶🎧",
+      "channelName": "Revive Music",
+      "views": "45M views",
+      "time": "1 year ago",
+      "duration": "2:29:42",
+      "thumbnail": "/images/youtube/thumb_16.webp",
+      "avatar": "/images/youtube/avatar_16.jpg"
+    },
+    {
+      "id": "vid_17",
+      "title": "Selena Gomez, Bruno Mars, Maroon 5, Ed Sheeran, Rihanna, Zayn, Adele, Dua Lipa 💎 Billboard Hot 100",
+      "channelName": "Trending Songs 2026",
+      "views": "677 watching",
+      "time": "",
+      "duration": "LIVE",
+      "thumbnail": "/images/youtube/thumb_17.webp",
+      "avatar": "/images/youtube/avatar_17.jpg"
+    },
+    {
+      "id": "vid_18",
+      "title": "Pop Music 2025 - Top Pop Songs 2025 - Billboard Top 100 🎧🔥 Justin Bieber Billie Eilish Miley Cyrus",
+      "channelName": "Revive Music",
+      "views": "2.4M views",
+      "time": "11 months ago",
+      "duration": "2:04:55",
+      "thumbnail": "/images/placeholder-thumbnail.webp",
+      "avatar": "/images/youtube/avatar_18.jpg"
+    },
+    {
+      "id": "vid_19",
+      "title": "🌸🟢Top 50 Global Music Spotify 2026 Playlist || Top Pop English Songs ~ Best Music Travel 2026",
+      "channelName": "JsVibes Music",
+      "views": "81K views",
+      "time": "3 days ago",
+      "duration": "2:19:47",
+      "thumbnail": "/images/placeholder-thumbnail.webp",
+      "avatar": "/images/placeholder-avatar.jpg"
+    },
+    {
+      "id": "vid_20",
+      "title": "Spotify Pop Hits 2026 ♫ Lady Gaga, Bruno Mars, Ed Sheeran, Billie Eilish, Miley Cyrus, Tate McRae#13",
+      "channelName": "Slow Acoustic and Sound View",
+      "views": "5.9M views",
+      "time": "8 months ago",
+      "duration": "2:00:25",
+      "thumbnail": "/images/placeholder-thumbnail.webp",
+      "avatar": "/images/placeholder-avatar.jpg"
+    },
+    {
+      "id": "vid_21",
+      "title": "Ed Sheeran - Shape of You (Official Music Video)",
+      "channelName": "Ed Sheeran",
+      "views": "6.7B views",
+      "time": "9 years ago",
+      "duration": "4:24",
+      "thumbnail": "/images/placeholder-thumbnail.webp",
+      "avatar": "/images/placeholder-avatar.jpg"
+    },
+    {
+      "id": "vid_22",
+      "title": "Top Trending Spotify 2026🤎🟢~ Best Healing English Songs 2026 || Viral Spotify and Tiktok Songs",
+      "channelName": "JsVibes Music",
+      "views": "290K views",
+      "time": "2 months ago",
+      "duration": "1:26:52",
+      "thumbnail": "/images/placeholder-thumbnail.webp",
+      "avatar": "/images/placeholder-avatar.jpg"
+    },
+    {
+      "id": "vid_23",
+      "title": "🎵Viral Tiktok Songs 2026 || Top Trending Spotify Music -- Best Hot Hits English Songs Playlist",
+      "channelName": "JsVibes Music",
+      "views": "188K views",
+      "time": "3 weeks ago",
+      "duration": "1:39:25",
+      "thumbnail": "/images/placeholder-thumbnail.webp",
+      "avatar": "/images/placeholder-avatar.jpg"
+    }
+  ]
+}
