@@ -11,7 +11,7 @@ import { FileItem } from "@/types";
 
 export default function Home() {
   const { isSidebarExpanded } = useSidebar();
-  const [activeSidebarItem, setActiveSidebarItem] = useState("Home");
+  const [activeSidebarItem, setActiveSidebarItem] = useState("Dashboard");
   const [activeChip, setActiveChip] = useState("All");
 
   // Dynamic filter for interactive file type switching
@@ -54,7 +54,7 @@ export default function Home() {
           onItemSelect={(item) => {
             setActiveSidebarItem(item);
             // Optional: reset category chip on sidebar navigation changes
-            if (item !== "Home") {
+            if (item !== "Dashboard") {
               setActiveChip("All");
             }
           }} 

@@ -481,9 +481,9 @@ export const CONFIG = {
 
               {/* Code Snippet with syntax highlighted words simulated */}
               <div className="flex-1 font-mono text-[#abb2bf] whitespace-pre overflow-x-auto">
-                <span className="text-[#c678dd]">import</span> React, &#123; createContext, useContext, useState &#125; <span className="text-[#c678dd]">from</span> <span className="text-[#98c379]">"react"</span>;
+                <span className="text-[#c678dd]">import</span> React, &#123; createContext, useContext, useState &#125; <span className="text-[#c678dd]">from</span> <span className="text-[#98c379]">&quot;react&quot;</span>;
                 {"\n"}
-                <span className="text-[#c678dd]">import</span> &#123; FileItem &#125; <span className="text-[#c678dd]">from</span> <span className="text-[#98c379]">"@/types"</span>;
+                <span className="text-[#c678dd]">import</span> &#123; FileItem &#125; <span className="text-[#c678dd]">from</span> <span className="text-[#98c379]">&quot;@/types&quot;</span>;
                 {"\n\n"}
                 <span className="text-[#c678dd]">interface</span> <span className="text-[#e5c07b]">SidebarContextProps</span> &#123;
                 {"\n"}  isSidebarExpanded: <span className="text-[#56b6c2]">boolean</span>;

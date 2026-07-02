@@ -11,6 +11,7 @@ import {
   YouIcon
 } from "./icons";
 import { useSidebar } from "@/context/SidebarContext";
+import Link from "next/link";
 
 export default function Header() {
   const { toggleSidebar } = useSidebar();
@@ -36,9 +37,9 @@ export default function Header() {
         >
           <MenuIcon size={20} />
         </button>
-        <a href="/" className="flex items-center">
+        <Link href="/" className="flex items-center">
           <YouTubeLogo size={24} />
-        </a>
+        </Link>
       </div>
 
       {/* Center side: Search bar */}
