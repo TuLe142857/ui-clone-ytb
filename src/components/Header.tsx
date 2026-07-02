@@ -85,12 +85,12 @@ export default function Header() {
 
       {/* Right side: Actions */}
       <div className="flex items-center gap-1 sm:gap-2">
-        <button
-          className="p-2 hover:bg-zinc-800 active:bg-zinc-700 rounded-full text-white transition-colors cursor-pointer"
-          aria-label="Create"
-        >
-          <CreateIcon size={24} />
-        </button>
+        {/*<button*/}
+        {/*  className="p-2 hover:bg-zinc-800 active:bg-zinc-700 rounded-full text-white transition-colors cursor-pointer"*/}
+        {/*  aria-label="Create"*/}
+        {/*>*/}
+        {/*  <CreateIcon size={24} />*/}
+        {/*</button>*/}
         <div className="relative">
           <button
             className="p-2 hover:bg-zinc-800 active:bg-zinc-700 rounded-full text-white transition-colors cursor-pointer"
