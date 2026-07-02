@@ -4,67 +4,46 @@ import React, { useState } from "react";
 import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar";
 import ChipBar from "@/components/ChipBar";
-import VideoGrid from "@/components/VideoGrid";
+import FileGrid from "@/components/FileGrid";
 import { useSidebar } from "@/context/SidebarContext";
 import mockData from "../../docs/research/youtube/mockData.json";
+import { FileItem } from "@/types";
 
 export default function Home() {
   const { isSidebarExpanded } = useSidebar();
   const [activeSidebarItem, setActiveSidebarItem] = useState("Home");
   const [activeChip, setActiveChip] = useState("All");
 
-  // Dynamic filter for interactive category switching
-  const getFilteredVideos = () => {
+  // Dynamic filter for interactive file type switching
+  const getFilteredFiles = (): FileItem[] => {
+    const allFiles = mockData.files as FileItem[];
     if (activeChip === "All") {
-      return mockData.videos;
+      return allFiles;
     }
     
-    return mockData.videos.filter((video) => {
-      const query = activeChip.toLowerCase();
-      
-      if (query === "music") {
-        return (
-          video.title.toLowerCase().includes("music") ||
-          video.title.toLowerCase().includes("song") ||
-          video.title.toLowerCase().includes("hits") ||
-          video.title.toLowerCase().includes("spotify") ||
-          video.channelName.toLowerCase().includes("lofi girl")
-        );
-      }
-      
-      if (query === "lo-fi") {
-        return (
-          video.title.toLowerCase().includes("lofi") ||
-          video.title.toLowerCase().includes("beats") ||
-          video.title.toLowerCase().includes("relax")
-        );
-      }
-      
-      if (query === "coding") {
-        return (
-          video.title.toLowerCase().includes("program") ||
-          video.title.toLowerCase().includes("code") ||
-          video.title.toLowerCase().includes("learn") ||
-          video.title.toLowerCase().includes("tutorial") ||
-          video.title.toLowerCase().includes("python") ||
-          video.title.toLowerCase().includes("c++") ||
-          video.title.toLowerCase().includes("java")
-        );
-      }
-      
-      // Default fallback string matching
-      return (
-        video.title.toLowerCase().includes(query) ||
-        video.channelName.toLowerCase().includes(query)
-      );
-    });
+    const chipToTypeMap: Record<string, string> = {
+      "Videos": "video",
+      "Audio": "audio",
+      "Images": "image",
+      "Documents": "document",
+      "Code": "code",
+      "Archives": "archive"
+    };
+
+    const targetType = chipToTypeMap[activeChip];
+    if (targetType) {
+      return allFiles.filter((file) => file.type === targetType);
+    }
+    
+    return allFiles;
   };
 
-  const filteredVideos = getFilteredVideos();
+  const filteredFiles = getFilteredFiles();
 
   return (
     <div className="flex flex-col min-h-screen bg-[#0f0f0f] text-white">
       {/* Fixed top Header */}
+      {/* Passing activeChip back and forth if search matches is possible */}
       <Header />
 
       {/* Main body layout */}
@@ -96,12 +75,13 @@ export default function Home() {
             onChipSelect={setActiveChip} 
           />
 
-          {/* Videos Grid */}
+          {/* Files Grid */}
           <div className="flex-1 overflow-y-auto">
-            <VideoGrid videos={filteredVideos} />
+            <FileGrid files={filteredFiles} />
           </div>
         </main>
       </div>
     </div>
   );
 }
+
