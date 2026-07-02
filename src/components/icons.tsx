@@ -17,7 +17,7 @@ export const YouTubeLogo: React.FC<IconProps & { showText?: boolean }> = ({ size
     </svg>
     {showText && (
       <span className="text-white font-semibold font-sans tracking-tighter text-xl leading-none flex items-center">
-        YouTube
+        YouTube-Clone
         <span className="text-[10px] text-zinc-400 self-start ml-0.5 font-normal">VN</span>
       </span>
     )}

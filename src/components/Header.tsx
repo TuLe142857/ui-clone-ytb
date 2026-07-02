@@ -5,7 +5,7 @@ import {
   MenuIcon, 
   YouTubeLogo, 
   SearchIcon, 
-  VoiceSearchIcon, 
+  // VoiceSearchIcon,
   CreateIcon, 
   NotificationsIcon,
   YouIcon
@@ -73,13 +73,13 @@ export default function Header() {
         >
           <SearchIcon size={20} />
         </button>
-        <button
-          type="button"
-          className="p-2.5 bg-[#222222] hover:bg-zinc-800 active:bg-zinc-700 rounded-full text-white transition-colors hidden sm:block cursor-pointer"
-          aria-label="Search with your voice"
-        >
-          <VoiceSearchIcon size={18} />
-        </button>
+        {/*<button*/}
+        {/*  type="button"*/}
+        {/*  className="p-2.5 bg-[#222222] hover:bg-zinc-800 active:bg-zinc-700 rounded-full text-white transition-colors hidden sm:block cursor-pointer"*/}
+        {/*  aria-label="Search with your voice"*/}
+        {/*>*/}
+        {/*  <VoiceSearchIcon size={18} />*/}
+        {/*</button>*/}
       </form>
 
       {/* Right side: Actions */}
